@@ -60,7 +60,9 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin: 5% 0 0 0;
+	padding: 0;
 }
 
 /* Your code starts here! */
@@ -75,6 +77,7 @@ h1, h2, h3, h4, h5 {
 	color: gold;
 	margin-bottom: 20px;
 	background-color: gray;
+	width: 100%;
 
 }
 h1 {
@@ -91,6 +94,8 @@ h1 {
 	color: gold;
 	margin-bottom: 20px;
 	background-color: black;
+	width:50%;
+	margin:5%
 }
 .middle-content {
 	margin: 0 10px;
@@ -101,6 +106,7 @@ h1 {
 	margin-bottom: 20px;
 	color: gold;
 	background-color: black;
+	width: 50%;
 }
 
 .bottom-content {
@@ -112,6 +118,7 @@ h1 {
 	margin-bottom: 20px;
 	color: gold;
 	background-color: black;
+	width:50%;
 
 }	
 button {
@@ -134,6 +141,7 @@ margin: 30px;
 	margin-bottom: 20px;
 	color: gold;
 	background-color: black;
+	width:50%;
 
 }
 .vision-content {
@@ -145,6 +153,7 @@ margin: 30px;
 	margin-bottom: 20px;
 	color: gold;
 	background-color: black;
+	width:50%;
 }
 .contact {
 	text-align: center;
