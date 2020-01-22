@@ -65,5 +65,31 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 .navigation {
+	display: flex
 	color: yellow;
+	margin: 0 10px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	color: gold;
+	text-decoration: none;
+	margin-bottom: 20px;
+	background-color: gray;
+
+}
+h1 {
+	display: inline-block;
+	text-size-adjust: 30;
+	margin: 30px;
+}
+.top-content {
+	margin: 0 10px;
+	border: 1px solid gold;
+	padding:10px;
+	display: inline-block;
+	border-radius: 10px;
+	color: gold;
+	margin-bottom: 20px;
+	background-color: black;
 }
