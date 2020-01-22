@@ -110,19 +110,52 @@ h1 {
 	display: inline-block;
 	border-radius: 10px;
 	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
 
 }	
 button {
 	border: 1px solid gray;
 }
-a {
-margin:20px;
-text-decoration: none;
-color: gold;
+
 }
 a:hover {
 color: black;
 }
 header {
 margin: 30px;
+}
+.product-content {
+	margin: 0 1px;
+	border: 1px solid gold;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+
+}
+.vision-content {
+	margin: 0 1px;
+	border: 1px solid gold;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+}
+.contact {
+	text-align: center;
+	color:black;
+}
+a {
+	margin:20px;
+	text-decoration: none;
+	color: gold;
+}
+footer .copyright {
+	padding: 20px 0;
+	text-align: center;
 }
