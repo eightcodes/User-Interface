@@ -60,7 +60,111 @@ html, body {
 h1, h2, h3, h4, h5 {
     font-family: 'Bangers', cursive;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+	margin-bottom: 15px;
+	margin: 5% 0 0 0;
+	padding: 0;
 }
 
 /* Your code starts here! */
+.navigation {
+	display: flex
+	color: yellow;
+	margin: 15px 10px;
+	border: 1px solid lightgray;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	color: gold;
+	margin-bottom: 20px;
+	background-color: gray;
+	width: 100%;
+
+}
+h1 {
+	display: inline-block;
+	font-size: 60px;
+	margin: 30px;
+}
+.top-content {
+	margin: 0 10px;
+	border: 1px solid gold;
+	padding:10px;
+	display: inline-block;
+	border-radius: 10px;
+	color: gold;
+	margin-bottom: 20px;
+	background-color: black;
+	width:50%;
+	margin:5%
+}
+.middle-content {
+	margin: 0 10px;
+	border: 1px solid gold;
+	padding:10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+	width: 50%;
+}
+
+.bottom-content {
+	margin: 0 10px;
+	border: 1px solid gold;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+	width:50%;
+
+}	
+button {
+	border: 1px solid gray;
+}
+
+}
+a:hover {
+color: black;
+}
+header {
+margin: 30px;
+}
+.product-content {
+	margin: 0 1px;
+	border: 1px solid gold;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+	width:50%;
+
+}
+.vision-content {
+	margin: 0 1px;
+	border: 1px solid gold;
+	padding: 10px;
+	display: inline-block;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	color: gold;
+	background-color: black;
+	width:50%;
+}
+.contact {
+	text-align: center;
+	color:black;
+}
+a {
+	margin:20px;
+	text-decoration: none;
+	color: gold;
+}
+footer .copyright {
+	padding: 20px 0;
+	text-align: center;
+}
