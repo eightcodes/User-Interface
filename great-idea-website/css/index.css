@@ -3,7 +3,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+/* html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -24,7 +24,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+/* article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -52,7 +52,7 @@ table {
     box-sizing: border-box;
 }
 
-html, body {
+/* html, body {
     height: 100%;
     font-family: 'Titillium Web', sans-serif;
 }
@@ -72,3 +72,137 @@ h1, h2, h3, h4, h5 {
 /*styles for the cta section*/
 
 /*styles for the main section*/
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+	overflow: hidden;
+	text-align: center;
+}
+
+ /* p {
+	 font-family: 16px;
+	 padding: 1%;
+	 line-height: 1.4;
+	 display: inline-block;
+
+ }
+ */
+ .logo {
+	 margin-top: 20px;
+	 margin-left: 80px;
+ }
+ button {
+	border: 1px solid black;
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 18px;
+	background: lightgray;
+	color: black;
+	padding: 2px 20px;
+ }
+
+ .intro_1 {
+	 width: 50%;
+	 margin: auto;
+ }
+
+ hr {
+	 height: 1%;
+	 border: 0%;
+	 border-top: 1% solid gold;
+	 padding: 0%;
+	 margin-top: 40%;
+	 margin-bottom: 40%;
+ }
+  nav {
+	  margin: 30px 0px 30px 0px;
+	  vertical-align: top;
+	  display: inline-block;
+  }
+
+  nav a {
+	  margin: 25px;
+	  text-decoration: none;
+	  text-align: center;
+	  font-size: 14px;
+	  font-weight: bold;
+	  color: rgb(5, 138, 182);
+	  font-family: 'titillium web', sans-serif;
+  }
+
+  .services {
+	  margin-top: 20%;
+  }
+
+  .intro {
+	  display: flex;
+	  margin-top: 20%;
+	  justify-content: space-evenly;
+	  align-items: center;
+  }
+  .intro h1 {
+	  font-size: 55px;
+	  letter-spacing: 5%;
+  }
+.intro-title {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+.content-container {
+	display: flex;
+	width: 100%;
+	flex-flow: row wrap;
+	justify-content: space-between;
+} 
+
+.services h1 {
+	margin-top: 30px;
+	font-size: 26px;
+}
+.content-box {
+	width: 50;
+	margin-bottom: 3%;
+	padding: 3%;
+	border: 1px solid blue;
+	background: lightblue;
+}
+.content-top {
+	display: flex;
+	width: 100%;
+}
+ .middle-img {
+	 display: flex;
+	 margin-top: 30px;
+	 margin-bottom: 30px;
+ }
+ .bottom-content {
+	 display: flex;
+	 width: 100%;
+ }
+ footer {
+	 line-height: 18px;
+ }
+ .services-footer {
+	 display: flex;
+	 width: 100%;
+	 justify-content: space-between;
+ }
+ .copy {
+	 margin: 30px;
+	 font-size: 14px;
+	 text-align: center;
+ }
+ .copy-services {
+	 margin: 30px;
+	 margin-top: 60px;
+	 font-size:  16px;
+	 text-align: center;
+ }
+ .services-footer ul {
+	 margin: 15px;
+	 justify-content: flex-start;
+	 list-style-type: square;
+ }
