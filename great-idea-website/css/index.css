@@ -147,6 +147,7 @@ header {
 	  letter-spacing: 5%;
   }
 .intro-title {
+	display: flex;
 	text-align: center;
 	justify-content: center;
 	align-items: center;
@@ -177,6 +178,8 @@ header {
 	 display: flex;
 	 margin-top: 30px;
 	 margin-bottom: 30px;
+	 margin-left: 250px;
+	 width: 1000px;
  }
  .bottom-content {
 	 display: flex;
@@ -205,4 +208,15 @@ header {
 	 margin: 15px;
 	 justify-content: flex-start;
 	 list-style-type: square;
+ }
+ h3 {
+	 text-align: center;
+ }
+ .address {
+	 text-align: center;
+ }
+ .header-img {
+	 display: flex;
+	 justify-content: flex-end;
+	 padding: 3%;
  }
